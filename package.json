@@ -1,0 +1,29 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "simplifies font-end testing of silverstripe websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dospuntocero/front.git"
+  },
+  "keywords": [
+    "gulp",
+    "silverstripe",
+    "sass",
+    "node"
+  ],
+  "author": "francisco arenas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dospuntocero/front/issues"
+  },
+  "homepage": "https://github.com/dospuntocero/front",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-sass": "^1.3.3"
+  }
+}
