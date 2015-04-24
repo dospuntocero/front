@@ -1,0 +1,123 @@
+
+.typography {
+	h1, h2, h3, h4, h5, h6 {
+		@extend .fs;
+		margin-bottom: 10px;
+		letter-spacing: .026em;
+		margin-top: 0;
+		font-weight: normal;
+	}
+
+	p,li{
+		margin: 0 0 1em 0;
+		@extend .os;
+		font-weight : 400;
+		font-size: em(13px);
+	}
+	h1{
+		@extend .fs;
+		font-weight: 800;
+		font-size: 50px;
+		line-height: 60px;
+	}
+	h2{
+		@extend .fs;
+		font-weight: 300;
+		font-size: 25px;
+		line-height: 40px;
+	}
+
+	a,h4{
+		@extend .fs;
+		font-weight: 700;
+		font-size: 12px;
+		letter-spacing: .026em;
+	}
+
+	.full-width-image img{
+		width:100% !important;
+		height : auto;
+	}
+
+	em {
+		font-style: italic;
+	}
+
+	a{
+		text-decoration: none;
+		color: $orange;
+	}
+
+	img {
+
+		&.left {
+			float: left;
+			max-width: 50%;
+			margin: 5px 20px 10px 0;
+		}
+		&.right {
+			float: right;
+			max-width: 50%;
+			/* Responsive width */
+			margin: 5px 0 10px 20px;
+		}
+		&.leftAlone {
+			float: left;
+			margin-right: 100%;
+			margin-bottom: 10px;
+			clear: both;
+		}
+		&.center {
+			float: none;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			margin-bottom: 10px;
+			clear: both;
+		}
+	}
+	.captionImage {
+		width: 100%;
+		margin-top: 5px;
+		img {
+			margin: 0;
+		}
+		&.left {
+			float: left;
+			margin: 5px 30px 20px 0;
+		}
+		&.right {
+			float: right;
+			margin: 5px 0 20px 30px;
+		}
+		&.left[style], &.right[style] {
+			max-width: 50%;
+			/* Overides core width to make responsive */
+		}
+		&.left img, &.right img {
+			float: none;
+			max-width: none;
+			width: 100%;
+		}
+		&.left img {
+			margin-right: -10px;
+		}
+		&.right {
+			img {
+				margin-left: -10px;
+			}
+			p {
+				margin-left: -10px;
+				text-align: left;
+			}
+		}
+		&.leftAlone {
+			float: none;
+			margin: 0 20px 20px 0;
+		}
+		&.center {
+			margin: 0 auto 20px;
+		}
+
+	}
+}

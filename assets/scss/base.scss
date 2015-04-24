@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+@import "components/mixins";
+@import "components/reset";
+@import "../vendor/breakpoint-sass/stylesheets/breakpoint";
+@import "components/cycle";
+@import "components/colorbox";
+@import "components/forms";
+
+//colors
+$orange: #e97813;
+$light-grey: #d0cfcf;
+$dark-grey: #494949;
+$yellow: #fdf44a;
+$footer-bg:#98a6ae;

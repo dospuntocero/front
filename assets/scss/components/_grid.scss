@@ -1,0 +1,31 @@
+/* Border-box-sizing */
+.row, .col, .row:after, .col:after, .row:before, .col:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix */
+.row {
+	@include clearfix;
+}
+
+.row {
+	/* ul/li compatibility */
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* Nested grid */
+.row > .row {
+	clear: none;
+	float: left;
+	margin: 0 !important;
+}
+
+/* Default col */
+.col {
+	float: left;
+	width: 100%;
+}

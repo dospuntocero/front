@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "front.js": {
+      "files": [
+        "vendor/modernizr.js",
+        "vendor/jquery.min.js",
+        "vendor/cycle.js",
+        "vendor/jquery.colorbox-min.js",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": "scss/main.scss",
+      "main": true
+    }
+  },
+  "paths": {
+    "source": "assets/",
+    "dist": "./"
+  },
+  "config": {
+    "devUrl": "gm"
+  }
+}
