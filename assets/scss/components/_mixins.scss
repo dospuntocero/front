@@ -74,8 +74,13 @@
 	-webkit-transform: $transforms;
 	transform: $transforms;
 }
-
-@mixin col($percentage, $float-direction:left) {
+//column based on known percentages
+@mixin colp($percentage, $float-direction:left) {
 	width: 100% * $percentage;
+	float: $float-direction;
+}
+//column based on unknown percentages
+@mixin colu($target,$context, $float-direction:left) {
+	width: p($target,$context);
 	float: $float-direction;
 }
