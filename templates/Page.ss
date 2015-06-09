@@ -8,7 +8,9 @@
 	<% if MetaDescription %>
 		<meta name="description" content="$MetaDescription">
 	<% end_if %>
-	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="$ThemeDir/css/main.css">
+	<link rel="icon" type="image/png" href="{$ThemeDir}/images/favicon.ico" />
+	<% include Analytics %>
 </head>
 <body class="$ClassName">
 	<% include Header %>
