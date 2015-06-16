@@ -1,4 +1,4 @@
-<nav class="nav">
+<nav class="main">
 	<a href="#0" class="responsive-nav-trigger">Menu<span></span></a>
 
 	<ul>
