@@ -1,7 +1,6 @@
 
 .typography {
 	h1, h2, h3, h4, h5, h6 {
-		@extend .fs;
 		margin-bottom: 10px;
 		letter-spacing: .026em;
 		margin-top: 0;
@@ -10,27 +9,22 @@
 
 	p,li{
 		margin: 0 0 1em 0;
-		@extend .os;
 		font-weight : 400;
 		font-size: em(13px);
 	}
 	h1{
-		@extend .fs;
 		font-weight: 800;
-		font-size: 50px;
+		font-size: em(50px);
 		line-height: 60px;
 	}
 	h2{
-		@extend .fs;
 		font-weight: 300;
-		font-size: 25px;
+		font-size: em(25px);
 		line-height: 40px;
 	}
 
 	a,h4{
-		@extend .fs;
-		font-weight: 700;
-		font-size: 12px;
+		font-size: em(13px);
 		letter-spacing: .026em;
 	}
 
