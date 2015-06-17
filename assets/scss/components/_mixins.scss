@@ -84,3 +84,15 @@
 	width: p($target,$context);
 	float: $float-direction;
 }
+
+@mixin responsive-image(){
+	max-width: 100%;
+	height: auto;
+}
+
+
+@mixin blank-list(){
+	margin: 0;
+	padding: 0;
+	list-style : none;
+}
