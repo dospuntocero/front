@@ -13,19 +13,20 @@
 		font-size: em(13px);
 	}
 	h1{
-		font-weight: 800;
 		font-size: em(50px);
-		line-height: 60px;
+		line-height: 1.3;
 	}
 	h2{
-		font-weight: 300;
+		font-size: em(35px);
+		line-height: 1.2;
+	}
+	h3{
 		font-size: em(25px);
-		line-height: 40px;
+		line-height: 1.1;
 	}
 
 	a,h4{
 		font-size: em(13px);
-		letter-spacing: .026em;
 	}
 
 	.full-width-image img{
